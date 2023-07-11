@@ -269,9 +269,6 @@
 
 /* ------------- Slide 4 ------------- */
 
-    #s_four{
-    }
-
     .slide_commntplace{
         display: flex;
         flex-direction: column;
@@ -364,18 +361,12 @@
         background-color: #ffffffbb;
     }
 
-    .footer h2 {
-        
-    }
 /* ========================================= */
 
 
 
     @media (max-width: 700px) {
 
-        .under_nav{
-            /* width: 90%; */
-        }
         .navigation{
             justify-content: space-evenly;
         }
@@ -398,9 +389,13 @@
         }
 
         .slide1_btn {
-            margin-right: 5px;
+            /* margin-right: 5px; */
         }
         
+        .slide1_right_bottom img {
+            height: 50px;
+        }
+
         .slide1_right_top_text{
             display: flex;
             flex-direction: column;
@@ -462,10 +457,6 @@
         }
         .comment_template_right_bottom {
             flex-wrap: wrap;
-        }
-        
-        #s_three{
-            /* padding-top: 90px; */
         }
         
         #s_four{
